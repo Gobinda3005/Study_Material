@@ -1,0 +1,34 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .carousel-image {
+    height: 56vh; /* Responsive height */
+  }
+  
+  @media (min-width: 640px) {
+    .carousel-image {
+      height: 64vh;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .carousel-image {
+      height: 80vh;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .carousel-image {
+      height: 96vh;
+    }
+  }
+  
+
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white; /* Set text color to white */
+  }
