@@ -14,8 +14,8 @@
 // export default About
 
 import React from "react";
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
@@ -33,32 +33,39 @@ const About = () => {
             Path Towards Success
           </h2>
           <p className="leading-relaxed text-base">
-            <i>Welcome to Birth For Write, your premier destination for
-            comprehensive study materials and video tutorials tailored for
-            engineering aspirants and students. Our platform is dedicated to
-            providing high-quality educational resources designed to help
-            students excel in their studies and achieve their academic goals. At
-            Birth For Write, we understand the challenges faced by students in
-            their academic journey. Our extensive library of study materials
-            covers a wide range of engineering subjects, ensuring that students
-            have access to the information they need to succeed. Our video
-            tutorials are crafted by experts to offer clear, concise, and
-            engaging explanations, making complex concepts easier to grasp. We
-            are committed to supporting students in finding answers to their
-            questions and overcoming academic challenges. Birth For Write is not
-            just a resource hub; it is a community where students can explore
-            different learning pathways and discover effective study techniques.
-            Join us at Birth For Write and take advantage of the opportunities
-            we offer to enhance your learning experience. Together, we can
-            unlock your full potential and pave the way for your success in the
-            engineering field.</i>
+            <i>
+              Welcome to Birth For Write, your premier destination for
+              comprehensive study materials and video tutorials tailored for
+              engineering aspirants and students. Our platform is dedicated to
+              providing high-quality educational resources designed to help
+              students excel in their studies and achieve their academic goals.
+              At Birth For Write, we understand the challenges faced by students
+              in their academic journey. Our extensive library of study
+              materials covers a wide range of engineering subjects, ensuring
+              that students have access to the information they need to succeed.
+              Our video tutorials are crafted by experts to offer clear,
+              concise, and engaging explanations, making complex concepts easier
+              to grasp. We are committed to supporting students in finding
+              answers to their questions and overcoming academic challenges.
+              Birth For Write is not just a resource hub; it is a community
+              where students can explore different learning pathways and
+              discover effective study techniques. Join us at Birth For Write
+              and take advantage of the opportunities we offer to enhance your
+              learning experience. Together, we can unlock your full potential
+              and pave the way for your success in the engineering field.
+            </i>
           </p>
-          <br/>
+          <br />
           {/* <Button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" as={Link} to="/Reactjs">
             HOME
           </Button> */}
-          <Button className="d-flex justify-content-center" variant="outline-warning" as={Link} to="/Home">
-              Home
+          <Button
+            className="d-flex justify-content-center"
+            variant="outline-warning"
+            as={Link}
+            to="/Home"
+          >
+            Home
           </Button>
         </div>
       </div>

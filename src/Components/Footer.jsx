@@ -45,15 +45,22 @@ const Footer = () => {
           </div>
         </div>
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <a className="flex title-font font-medium flex items-center text-gray-400 mb-4 md:mb-0">
-                    {/* <a href='https://notionpress.com/author/321668'><span className='ml-3 text-xl'>BFB</span></a> */}
-                    <Link className="ml-3 text-xl" to="/Home">
-                      <span className="ml-3 text-xl text-red-500 shadow-xl">
+          <div className="w-44 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a className="flex title-font font-medium flex items-center text-gray-400 mb-4 md:mb-0">
+              {/* <a href='https://notionpress.com/author/321668'><span className='ml-3 text-xl'>BFB</span></a> */}
+              <Link className="ml-12 text-xl" to="/Home">
+                {/* <span className="ml-3 text-xl text-red-500 shadow-xl">
                         BFW Study
-                      </span>
-                    </Link>
-                  </a>
+                      </span> */}
+                <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="public\B (2).png"
+                  />
+                </div>
+              </Link>
+            </a>
             <p className="mt-2 text-sm text-gray-500">
               Online Study platform which is provide education to Engineering
               Aspirants
